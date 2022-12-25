@@ -12,22 +12,22 @@ const Navbar = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div className="absolute w-[50%] inset-0 gradient-01" />
+    <div className="absolute w-2/4 inset-0 gradient-01" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img
         src="/search.svg"
         alt="search"
-        className="w-[24px] h-[24px] object-contain"
+        className="w-6 h-6 object-contain"
       />
       <h2
-        className="font-extrabold text-[24px] leading-[30px] text-white"
+        className="font-extrabold text-2xl leading-7 text-white"
       >
         METAVERSUS
       </h2>
       <img
         src="/menu.svg"
         alt="menu"
-        className="w-[24px] h-[24px] object-contain"
+        className="w-6 h-6 object-contain"
       />
     </div>
   </motion.nav>

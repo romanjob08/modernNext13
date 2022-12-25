@@ -22,7 +22,7 @@ const Insights = () => (
       <TitleText title="Insight about metaverse"
         textStyles="text-center"
       />
-      <div className="mt-[50px] flex flex-col gap-[30px]">
+      <div className="mt-12 flex flex-col gap-8">
         {insights.map((insight, index) => (
           <InsightCard key={`insight-${index}`} {...insight} index={index + 1} />
         ))}

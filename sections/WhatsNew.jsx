@@ -22,8 +22,8 @@ const WhatsNew = () => (
       >
         <TypingText title="| What's New?" />
         <TitleText title={<>What's new about Metaversus?</>} />
-        <div className="mt-[48px] flex flex-wrap
-         justify-between gap-[24px]"
+        <div className="mt-12 flex flex-wrap
+         justify-between gap-6"
         >
           {newFeatures.map((feature) => (
             <NewFeatures
@@ -40,7 +40,7 @@ const WhatsNew = () => (
         <img
           src="/whats-new.png"
           alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-11/12 h-[90%] object-contain"
         />
       </motion.div>
     </motion.div>

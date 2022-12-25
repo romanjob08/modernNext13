@@ -20,7 +20,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px]
+        className="mt-2 font-normal sm:text-[32px]
         text-[20px] text-center text-secondary-white"
       >
         <span className="font-extrabold text-white">Metaverse</span> is
@@ -37,7 +37,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.3, 1)}
         src="/arrow-down.svg"
         alt="Arrow Down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
+        className="w-5 h-7 object-contain mt-7"
       />
     </motion.div>
   </section>

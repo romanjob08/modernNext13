@@ -23,7 +23,7 @@ const GetStarted = () => (
         <img
           src="/get-started.png"
           alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-11/12 h-[90%] object-contain"
         />
       </motion.div>
       <motion.div
@@ -32,7 +32,7 @@ const GetStarted = () => (
       >
         <TypingText title="| How Metaversus Works" />
         <TitleText title={<>Get started with just a few clicks</>} />
-        <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
+        <div className="mt-8 flex flex-col max-w-96 gap-6">
           {startingFeatures.map((feature, index) => (
             <StartSteps
               key={feature}

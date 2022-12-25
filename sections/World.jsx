@@ -26,14 +26,14 @@ const World = () => (
       />
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
-        className="relative mt-[68px] flex w-full"
+        className="relative mt-16 flex w-full"
       >
         <img
           src="/map.png"
           alt="map"
           className="w-full h-full object-cover"
         />
-        <div className="absolute bottom-[20%] right-[10%] w-[70px] h-[70px] p-[6px]
+        <div className="absolute bottom-[20%] right-[10%] w-16 h-16 p-1.5
         rounded-full bg-[#5d6680]"
         >
           <img
@@ -44,7 +44,7 @@ const World = () => (
         </div>
         <div
           className="absolute top-[10%] left-[10%]
-          w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]"
+          w-16 h-16 p-1.5 rounded-full bg-[#5d6680]"
         >
           <img
             src="/people-02.png"
@@ -53,7 +53,7 @@ const World = () => (
           />
         </div>
         <div
-          className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px]
+          className="absolute top-1/2 left-[45%] w-16 h-16 p-1.5
         rounded-full bg-[#5d6680]"
         >
           <img

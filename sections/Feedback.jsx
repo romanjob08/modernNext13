@@ -16,24 +16,24 @@ const Feedback = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] justify-end flex-col gradient-05
-        sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
+        className="flex-[0.5] lg:max-w-96 justify-end flex-col gradient-05
+        sm:p-8 p-4 rounded-3xl border border-[#6a6a6a] relative"
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px]
-          leading-[36px] text-white"
+          <h4 className="font-bold sm:text-3xl text-2xl sm:leading-10
+          leading-9 text-white"
           >
             Samantha
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px]
-          sm:leading-[22px] leading-[16px] text-white"
+          <p className="mt-2 font-normal sm:text-lg text-xs
+          sm:leading-5 leading-4 text-white"
           >
             Founder | Metaversus
           </p>
         </div>
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px]
-          sm:leading-[45px] leading-[39px] text-white"
+        <p className="mt-6 font-normal sm:text-2xl text-lg
+          sm:leading-10 leading-9 text-white"
         >
           “With the development of today's technology,
           metaverse is very useful for today's work,
@@ -49,7 +49,7 @@ const Feedback = () => (
         <img
           src="/planet-09.png"
           alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px]
+          className="w-full lg:h-[610px] h-auto min-h-52
           object-cover rounded-[40px]"
         />
 
@@ -60,7 +60,7 @@ const Feedback = () => (
           <img
             src="/stamp.png"
             alt="stamp"
-            className="w-[155px] h-[155px] object-contain"
+            className="w-40 h-40 object-contain"
           />
         </motion.div>
       </motion.div>
